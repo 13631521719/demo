@@ -16,7 +16,7 @@ public class TestController {
     public @ResponseBody Map test()throws Exception{
         Map<String,String> map=new HashMap<>();
         map.put("code","1001");
-        map.put("message","这是返回的消息");
+        map.put("message","这是返回的消息11111");
         return map;
     }
 }
