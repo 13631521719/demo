@@ -11,6 +11,7 @@ import java.util.Map;
 @Controller
 public class TestController {
 
+
     @RequestMapping("/test")
     public @ResponseBody Map test()throws Exception{
         Map<String,String> map=new HashMap<>();
